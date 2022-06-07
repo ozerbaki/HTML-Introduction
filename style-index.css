@@ -1,0 +1,20 @@
+h2
+{
+	color: slateblue;
+	background-color: orange;
+	font-size: 14px;
+}
+.text
+{
+	background-color: yellow;
+	color: royalblue;
+	font-size: 900;
+}
+#link
+{
+	color: orangered;
+	font-size: 20px;
+	font-weight: normal;
+	background-color: skyblue;
+	text-decoration: none; /* underline, overline, none, line-through*/
+}
