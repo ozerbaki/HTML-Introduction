@@ -1,0 +1,38 @@
+.wrapper
+{
+    /*
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    */
+
+    /*margin: 50px, 100px, 50px, 100px; */ /* top, right, bottom, left */
+
+    /*margin: 50px 100px;*/ /* X Y*/
+
+    margin: 50px; /*Her yerden*/
+    
+    /*
+    border-width: 1px;
+    border-color: #dee2e6;
+    border-style: solid;
+    */
+    border: 2px solid orangered;
+
+    /*
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    */
+    padding: 20px;
+}
+
+footer
+{
+    margin: 50px;
+    border: 2px solid orangered;
+    padding: 20px;
+    background-color: blueviolet;
+}

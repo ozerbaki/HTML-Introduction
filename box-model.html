@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* CSS Normalize */
+        *
+        {
+            box-sizing: border-box; /* border + padding + content */
+            margin: 0;
+            padding: 0;
+            /* her tag için geçerlidir */
+        }
+        .container
+        {
+            background-color: slategray;
+            padding: 20px;
+            border: 15px solid black;
+        }
+        .box
+        {
+            background-color: tomato;
+            /* margin: 40px;*/
+            padding: 20px; 
+            border: 10px solid lime ;
+
+            width: 200px;
+            height: 200px;
+
+            /* box-sizing: content-box; */
+            /* box-sizing: border-box; */ /* content, padding, border dahil margin dahil değil!!! */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>BOX</h1>
+        </div>
+    </div>
+</body>
+</html>
