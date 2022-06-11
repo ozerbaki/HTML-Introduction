@@ -1,0 +1,137 @@
+/* tarayıcıların default olarak sayfama müdahale etmesin diye sayfamızı sıfırlıyoruz. */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.container
+{
+    background-color: slategray;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    height: 300px;
+    display: flex; /* normalde block olarak davranıyordu flex ile yan yana getirdik. */
+    flex-direction: row; /* colum block haline gelmesini sağlıyor */
+    justify-content: flex-start;
+    /*  flex-start => default 
+        flex-end => en sona atar
+        center => ortalar
+        space-between => en baş en son kalanları ortalar
+        space-around => ilgili alan içinde eşit şekilde dağıtır
+        space-evenly => her biri arasında 1 birim boşluk verir. otomatik hesaplar
+    */
+
+    align-items: stretch;
+    /*
+        stretch, flex-start, flex-end, center, 
+    */
+
+    flex-wrap: wrap;
+    /*
+        nowrap => default
+        wrap, wrap-reverse
+    */
+    align-content: space-between;
+    /*
+        flex-start, flex-end, center, space-between, space-around, 
+    */
+
+}
+
+.box
+{
+    background-color: tomato;
+    color: snow;
+    font-weight: bold;
+    padding: 20px;
+}
+/* Kod okuma işlemi yukarıdan aşağı doğru olduğu için box2 class'ı box class'ını eziyor. */
+.box2
+{
+    background-color: slateblue;
+}
+/* sadece background-color tanımlı olduğu için background-color özelliğini eziyor */
+hr
+{
+    margin: 40px;
+}
+h2
+{
+    text-align: center;
+}
+
+
+
+/* FLEX ITEMS */
+.flex-container
+{
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: slategray;
+    display: flex;
+}
+
+.flex-item
+{
+    background-color: tomato;
+    padding: 20px;
+    color: snow;
+    font-weight: bold;
+}
+
+.blue
+{
+    background-color: slateblue;
+}
+
+
+/* FLEX GROW */
+.flex-grow
+{
+    flex-grow: 1;
+}
+
+.grow-2
+{
+    flex-grow: 2;
+}
+.grow-3
+{
+    flex-grow: 3;
+}
+
+
+/* FLEX BASIS */
+.basis-1
+{
+    flex-basis: 250px;
+}
+.basis-2
+{
+    flex-basis: 150px;
+}
+.basis-3
+{
+    flex-basis: 400px;
+}
+
+
+/* FLEX SHRINK */
+.shrink-container
+{
+    width: 500px;
+}
+.shrink-item
+{
+    flex-basis: 250px;
+    flex-shrink: 1;
+}
+.shrink-item-2
+{
+    flex-basis: 250px;
+    flex-shrink: 2;
+}
