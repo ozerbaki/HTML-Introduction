@@ -1,0 +1,38 @@
+input[type=text] {
+    width: 100px;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 250px;
+}
+
+/* unvisited link */
+a:link {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+input:checked {
+    height: 50px;
+    width: 50px;
+}
+
+input:focus {
+    background-color: yellow;
+}
