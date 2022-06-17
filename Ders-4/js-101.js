@@ -274,9 +274,7 @@ var addFun = function (a,b) {
 const output1 = addFun(5,7);
 console.log(output1);
 
-//Ödev Function
-// a degerinin 10dan buyuk oldugu zaman b degeri ile toplanmasini istiyorum
-// a degerinin integer olmamasi durumunda consola bir uyari yazip fonksiyonu bitirebiliriz.
+
 
 // -- Matematiksel Fonksiyonlar --
 
@@ -302,3 +300,16 @@ console.log(Number(numberStr));
 console.log(parseInt(50));
 console.log(parseInt('50'));
 console.log(parseInt('zz'));
+
+//Ödev Function
+// a degerinin 10dan buyuk oldugu zaman b degeri ile toplanmasini istiyorum
+// a degerinin integer olmamasi durumunda consola bir uyari yazip fonksiyonu bitirebiliriz.
+function odev(a, b) {
+    if (a!=isNaN) {
+        console.log("Sayı giriniz.");
+    }
+    else if (a>10) {
+        console.log(a+b);
+    }
+}
+odev(12,5);
