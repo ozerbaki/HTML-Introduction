@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;            
+        }
+        .container{
+            max-width: 900px;
+            margin: auto;
+        }
+        .red{
+            background-color: orangered;
+        }
+        #my-form{
+            margin: 40px 0px;
+            background-color: snow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <h1 class="title">Events</h1>
+
+        <button id="btn">Click Me!</button>
+
+        <div id="user-info">
+            <p id="username-text">Username</p>
+            <p id="password-text">Password</p>
+        </div>
+
+
+        <div class="card">
+            <form action="" id="my-form">
+                <h2>Login Form</h2>
+
+                <div>
+                    <label for="username">Username</label>
+                    <input type="text" id="username">
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="text" id="password">
+                </div>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="event.js"></script>
+</body>
+</html>
