@@ -1,0 +1,16 @@
+{
+  "name": "101",
+  "version": "1.0.0",
+  "description": "Tutorial",
+  "main": "node101.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node101.js",
+    "serve": "node server.js"
+  },
+  "author": "Bilgeadam",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
